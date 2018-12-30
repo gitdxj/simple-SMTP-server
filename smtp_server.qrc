@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="SMTP_server">
+    </qresource>
+</RCC>

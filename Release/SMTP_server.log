@@ -1,0 +1,33 @@
+﻿Build started 12/2/2018 2:16:49 PM.
+     1>Project "C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\SMTP_server\SMTP_server.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SMTP_server.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt func.cpp
+         func.cpp
+     1>c:\users\na\documents\visual studio 2010\projects\smtp_server\smtp_server\func.cpp(35): warning C4715: 'parseCommand' : not all control paths return a value
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\Win32\Release\\SMTP_server.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2010_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SMTP_server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\Win32\Release\SMTP_server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\Win32\Release\SMTP_server.lib" /MACHINE:X86 Release\base64.obj
+         Release\func.obj
+         Release\qrc_smtp_server.obj
+         Release\moc_smtp_server.obj
+         Release\moc_tcpthread.obj
+         Release\getMail.obj
+         Release\main.obj
+         Release\smtp_server.obj
+         Release\tcpthread.obj
+         Release\user.obj
+         SMTP_server.vcxproj -> C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\Win32\Release\SMTP_server.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\Win32\Release\\SMTP_server.exe;#1" /manifest Release\SMTP_server.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\SMTP_server.unsuccessfulbuild".
+         Touching "Release\SMTP_server.lastbuildstate".
+     1>Done Building Project "C:\Users\NA\Documents\Visual Studio 2010\Projects\SMTP_server\SMTP_server\SMTP_server.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17
